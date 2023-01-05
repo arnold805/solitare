@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="217.25999mm"
+   height="302.96289mm"
+   viewBox="0 0 217.26 302.96289"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="card_landing_pad.svg"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.89245631"
+     inkscape:cx="440.91794"
+     inkscape:cy="653.81352"
+     inkscape:window-width="1834"
+     inkscape:window-height="1639"
+     inkscape:window-x="3008"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(3.0605469,3.2773438)">
+    <path
+       id="rect2199"
+       style="fill:#666666;stroke-width:0.261961"
+       inkscape:label="rect2199"
+       d="M 16.199259 -3.2773438 C 5.6013678 -3.2773438 -3.0605469 5.3845713 -3.0605469 15.982463 L -3.0605469 280.42575 C -3.0605469 291.02364 5.6013684 299.68556 16.199259 299.68556 L 194.93925 299.68556 C 205.53714 299.68556 214.19905 291.02364 214.19906 280.42575 L 214.19906 15.982463 C 214.19906 5.3845684 205.53714 -3.2773438 194.93925 -3.2773438 L 16.199259 -3.2773438 z M 16.199776 1.6680908 L 194.93977 1.6680908 C 202.87036 1.6680908 209.25466 8.0523866 209.25466 15.982979 L 209.25466 280.42524 C 209.25466 288.35583 202.87036 294.74012 194.93977 294.74012 L 16.199776 294.74012 C 8.2691835 294.74012 1.8848877 288.35583 1.8848877 280.42524 L 1.8848877 15.982979 C 1.8848877 8.0523866 8.2691835 1.6680908 16.199776 1.6680908 z " />
+  </g>
+</svg>

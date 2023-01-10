@@ -2,6 +2,7 @@
 
 function CardLandingPad() {
     return (
+      <div class="cardlandingpad">
       <svg
       width={821.14}
       height={1145.057}
@@ -18,6 +19,7 @@ function CardLandingPad() {
         transform="translate(3.06 3.277)"
       />
     </svg>
+    </div>
     );
 }
 

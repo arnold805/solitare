@@ -6,7 +6,8 @@ const Preferences = () => {
   return (
     <>
     <h2>Preferences</h2>
-      <CardLandingPad />
+    <p>Background:</p>
+      
     </>
   );
 };

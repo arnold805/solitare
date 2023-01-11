@@ -7,21 +7,17 @@ import Button from "@mui/material/Button";
 
 function Navbar({currentUser, setCurrentUser}) {
   return (
-    <>
+    <div className="Navbar">
       <AppBar
         position="static"
-        color="default"
+        color="inherit"
         elevation={0}
         sx={{ borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}
       >
         <Toolbar sx={{ flexWrap: "wrap" }}>
-          <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-            Solitare
-          </Typography>
-          
             <nav>
             <Button
-              id='login'
+              id='new-game'
               variant="outlined"
               to="/"
               component={RouterLink}
@@ -29,49 +25,38 @@ function Navbar({currentUser, setCurrentUser}) {
             >
               New Game
             </Button>
-              <Link
-                variant="button"
-                color="text.primary"
-                sx={{ my: 1, mx: 1.5 }}
-                to="/"
-                component={RouterLink}
-              >
-                Home
-              </Link>
-              {/* <Link
-                variant="button"
-                color="text.primary"
-                sx={{ my: 1, mx: 1.5 }}
-                to="/searches/new"
-                component={RouterLink}
-              >
-                New Search
-              </Link>
-              <Link
-                variant="button"
-                color="text.primary"
-                sx={{ my: 1, mx: 1.5 }}
-                to="/searches/saved"
-                component={RouterLink}
-              >
-                Saved Searches
-              </Link> */}
-              <Link
-                variant="button"
-                color="text.primary"
-                sx={{ my: 1, mx: 1.5 }}
-                to="/preferences"
-                component={RouterLink}
-              >
-                Preferences
-              </Link>
-
-              {/* <Logout currentUser={currentUser} setCurrentUser={setCurrentUser}/> */}
+            <Button
+              id='home'
+              variant="outlined"
+              to="/"
+              component={RouterLink}
+              sx={{ my: 1, mx: 1.5 , border: 1}}
+            >
+              Home
+            </Button>
+            <Button
+              id='leaderboard'
+              variant="outlined"
+              to="/leaderboard"
+              component={RouterLink}
+              sx={{ my: 1, mx: 1.5 }}
+            >
+              Leaderboard
+            </Button>
+            <Button
+              id='preferences'
+              variant="outlined"
+              to="/preferences"
+              component={RouterLink}
+              sx={{ my: 1, mx: 1.5 }}
+            >
+              Preferences
+            </Button>
             </nav>
           
         </Toolbar>
       </AppBar>
-    </>
+    </div>
   );
 }
  

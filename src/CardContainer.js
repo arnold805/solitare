@@ -1,4 +1,3 @@
-import React from 'react';
 import CardLandingPad from './CardLandingPad';
 
 function CardContainer({animals}) {
